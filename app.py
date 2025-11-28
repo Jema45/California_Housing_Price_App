@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # --- PAGE SETUP ---
-st.set_page_config(page_title="California Housing AI", layout="centered")
+st.set_page_config(page_title="California House Price Predictor", layout="centered")
 
 # --- LOAD ENGINE ---
 # This function loads the 'brain' (model) and the 'translator' (scaler)
